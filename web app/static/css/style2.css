@@ -1,0 +1,135 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+body{
+    margin: 0;
+    padding: 0;
+    font-family: impact ;
+    background: url(images/service-bg2.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.Name{
+    position: absolute;
+width: 138px;
+height: 27px;
+left: 83px;
+top: 33px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 27px;
+color: black;
+}
+.login-box{
+    width:300px;
+    position: absolute;
+    top: 55%;
+    left: 70%;
+    -ms-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+    color: white;
+}
+.login-box h1{
+    float: left;
+    font-size: 40px;
+    margin-bottom: 100px;
+    padding: 6px 0
+}
+.textbox{
+    width:100%;
+    overflow:hidden;
+    font-family: impact ;
+    font-size:20px;
+    padding:8px 0;
+    margin:8px 0;
+    border-bottom: 0.5px solid #E5E5E5;
+}
+.textbox i{
+    width:26px;
+    float: left;
+    text-align: center;
+}
+.textbox input{
+    border:none;
+    outline:none;
+    background:none;
+    color:rgb(0, 0, 0) ;
+    font-size: 15px;
+    width: 80%;
+    float: left;
+    margin: 0 10px;
+}
+.btn{
+    width: 40%;
+    background: #3D3D3D;
+    border: 2px solid  #3D3D3D;
+    color:white;
+    padding:5px;
+    font-size : 15px ;
+    cursor:pointer;
+    margin:12px 0;
+    border-radius: 10px;
+}
+
+.Footer{
+    position: absolute;
+width: 144px;
+height: 18px;
+left: 746px;
+top: 974px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 18px;
+
+color: #EBEBEB;
+
+}
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+/* Top left text */
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+/* Top right text */
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
